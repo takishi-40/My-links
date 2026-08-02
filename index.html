@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Bazar Aroua</title>
 
 <style>
@@ -14,71 +15,98 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:linear-gradient(135deg,#000,#1a1a1a);
+background:#0f0f0f;
 display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
+padding:20px;
 }
 
 .card{
-width:90%;
-max-width:420px;
-background:#111;
-padding:35px;
-border-radius:20px;
+width:100%;
+max-width:380px;
+background:#1b1b1b;
+border-radius:25px;
+padding:30px;
 text-align:center;
-box-shadow:0 0 30px rgba(255,215,0,.25);
+box-shadow:0 0 25px rgba(255,215,0,.25);
+}
+
+.logo{
+width:120px;
+height:120px;
+margin:0 auto 20px;
+border-radius:50%;
+border:4px solid gold;
+background:url("logo.jpg") center center/cover no-repeat;
+}
+
+h1{
+color:#FFD700;
+font-size:32px;
+margin-bottom:10px;
+}
+
+p{
+color:#ddd;
+margin-bottom:25px;
+line-height:1.5;
+}
+
+.btn{
+display:block;
+width:100%;
+padding:16px;
+margin:12px 0;
+text-decoration:none;
+color:#fff;
+font-size:18px;
+font-weight:bold;
+border-radius:14px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.04);
+}
+
+.tiktok{
+background:#000;
+border:2px solid #25F4EE;
+}
+
+.instagram{
+background:#E1306C;
+}
+
+.facebook{
+background:#1877F2;
+}
+
+.footer{
+margin-top:25px;
+font-size:13px;
+color:#888;
+}
+
+@media(max-width:480px){
+.card{
+padding:25px;
+}
+
+h1{
+font-size:28px;
 }
 
 .logo{
 width:110px;
 height:110px;
-border-radius:50%;
-margin:auto;
-margin-bottom:20px;
-border:3px solid gold;
-background:url("photo_2026-08-02_21-01-27.jpg") center/cover;
 }
-
-h1{
-color:gold;
-margin-bottom:8px;
-}
-
-p{
-color:#ccc;
-margin-bottom:25px;
-}
-
-.btn{
-display:block;
-text-decoration:none;
-padding:16px;
-margin:12px 0;
-border-radius:12px;
-font-size:18px;
-font-weight:bold;
-transition:.3s;
-color:white;
-}
-
-.tiktok{background:#000;border:2px solid #25F4EE;}
-.instagram{background:#E1306C;}
-.facebook{background:#1877F2;}
-
-.btn:hover{
-transform:scale(1.05);
-}
-
-.footer{
-margin-top:25px;
-color:#888;
-font-size:13px;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <div class="card">
@@ -87,23 +115,20 @@ font-size:13px;
 
 <h1>Bazar Aroua</h1>
 
-<p>Trouvez-nous sur nos réseaux sociaux</p>
+<p>
+ملابس نسائية وأطفال<br>
+Pyjamas • Chaussures • Sacs
+</p>
 
-<a class="btn tiktok"
-href="https://www.tiktok.com/@bazar.aroua?_r=1&_t=ZS-98A9hGQPeca"
-target="_blank">
+<a class="btn tiktok" href="https://www.tiktok.com/@bazar.aroua?_r=1&_t=ZS-98A9hGQPeca" target="_blank">
 🎵 TikTok
 </a>
 
-<a class="btn instagram"
-href="https://www.instagram.com/bazararoua?igsh=dGd4Ynk0aW9tMXRr"
-target="_blank">
-📷 Instagram
+<a class="btn instagram" href="https://www.instagram.com/bazararoua?igsh=dGd4Ynk0aW9tMXRr" target="_blank">
+📸 Instagram
 </a>
 
-<a class="btn facebook"
-href="https://www.facebook.com/profile.php?id=61591637564838"
-target="_blank">
+<a class="btn facebook" href="https://www.facebook.com/profile.php?id=61591637564838" target="_blank">
 📘 Facebook
 </a>
 
