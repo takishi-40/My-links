@@ -1,1 +1,117 @@
-# My-links
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bazar Aroua</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#000,#1a1a1a);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+
+.card{
+width:90%;
+max-width:420px;
+background:#111;
+padding:35px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 0 30px rgba(255,215,0,.25);
+}
+
+.logo{
+width:110px;
+height:110px;
+border-radius:50%;
+margin:auto;
+margin-bottom:20px;
+border:3px solid gold;
+background:url("https://via.placeholder.com/110") center/cover;
+}
+
+h1{
+color:gold;
+margin-bottom:8px;
+}
+
+p{
+color:#ccc;
+margin-bottom:25px;
+}
+
+.btn{
+display:block;
+text-decoration:none;
+padding:16px;
+margin:12px 0;
+border-radius:12px;
+font-size:18px;
+font-weight:bold;
+transition:.3s;
+color:white;
+}
+
+.tiktok{background:#000;border:2px solid #25F4EE;}
+.instagram{background:#E1306C;}
+.facebook{background:#1877F2;}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.footer{
+margin-top:25px;
+color:#888;
+font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="logo"></div>
+
+<h1>Bazar Aroua</h1>
+
+<p>Trouvez-nous sur nos réseaux sociaux</p>
+
+<a class="btn tiktok"
+href="https://www.tiktok.com/@bazar.aroua?_r=1&_t=ZS-98A9hGQPeca"
+target="_blank">
+🎵 TikTok
+</a>
+
+<a class="btn instagram"
+href="https://www.instagram.com/bazararoua?igsh=dGd4Ynk0aW9tMXRr"
+target="_blank">
+📷 Instagram
+</a>
+
+<a class="btn facebook"
+href="https://www.facebook.com/profile.php?id=61591637564838"
+target="_blank">
+📘 Facebook
+</a>
+
+<div class="footer">
+© 2026 Bazar Aroua
+</div>
+
+</div>
+
+</body>
+</html># My-links
